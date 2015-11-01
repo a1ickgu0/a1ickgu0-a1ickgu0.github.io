@@ -5,7 +5,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: alickguo.me
-url: http://blog.a1ickgu0
+title: Alick's Blog
+url: http://blog.a1ickgu0.me
 feed: /atom.xml
 author_info: <a href="http://blog.a1ickgu0.me/">Alick's Blog</a>
