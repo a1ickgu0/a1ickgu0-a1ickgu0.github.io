@@ -14,9 +14,11 @@ Surge 这个是 iOS9 上的神器，作者虽然在[官网](http://surge.run/man
 -  iTunes上购买[Surge](https://itunes.apple.com/cn/app/surge-web-developer-tool-proxy/id1040100637?mt=8)软件。
 -  载我整理好的 Surge [配置文件](https://raw.githubusercontent.com/a1ickgu0/surge-ss-conf/master/rules.conf)。（可以在 Surge 软件中直接 Download 或是用 iTunes 导入）
 - 根据你的 SS 服务器信息，在Surge中修改配置。
-- 选中配置后占 ``start`` 启动后按其提示操作。
+- 选中配置后点 ``start`` 启动后按其提示操作。
 
-操作完成之后状态出现``vpn``字样后，iOS设备就可以直接科学上网了，同时还自带各种视频客户的广告过滤，对 Surge 本身没有兴趣的，以下的内容可以直接忽略了。
+操作完成之后，状态栏出现``vpn``字样，此时 iOS 设备即可以科学上网了，同时还自带各种视频客户的**广告过滤**（媳妇刚需，码农泡妹必备）。
+
+对 Surge 本身没有兴趣的同学，以下的内容可以直接忽略了。
 
 ### 主要功能
 
