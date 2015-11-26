@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 说说我用过的小伙伴-键盘
-description:从事码农行业之后，陆陆续续用不过少的键盘，最终还是 cherry 原厂的键盘最好用，码农们如果非要一入块键盘的话，那就入 cherry 的青轴吧，性价比高。
+description: 从事码农行业之后，陆陆续续用不过少的键盘，最终还是 cherry 原厂的键盘最好用，码农们如果非要一入块键盘的话，那就入 cherry 的青轴吧，性价比高。
 category: blog
 --- 
 

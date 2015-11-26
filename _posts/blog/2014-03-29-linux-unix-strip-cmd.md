@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Linux & Unix strip 命令
-description:最近在工作中正好用到strip命令，只是简单删除指定的T符号，对strip工具没有完全的了解，闲时将strip命令整理了一下，不同的发行版本的strip的option实际不尽相关，但主要的option基本相近。
+description: 最近在工作中正好用到strip命令，只是简单删除指定的T符号，对strip工具没有完全的了解，闲时将strip命令整理了一下，不同的发行版本的strip的option实际不尽相关，但主要的option基本相近。
 category: blog
 --- 
 
