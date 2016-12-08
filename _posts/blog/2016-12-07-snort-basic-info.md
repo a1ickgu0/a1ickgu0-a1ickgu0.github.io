@@ -248,6 +248,8 @@ bats ::= bit[&bats]
 
 ##### 样例
 
+非载荷查找样例:
+
 ```
 # 记录 IGMP 报文
 alert ip any any -> any any (ip_proto:igmp;)
@@ -275,6 +277,8 @@ alert tcp any any -> any any (stream_size:client,<,6;)
 * detection_filter，事件在特定的发生频率之后被激活，``detection_filter: track <by_src|by_dst>, count <c>, seconds <s>;``
 
 ##### 样例
+
+检测后处理样例:
 
 ```
 # 记录 TELNET 中所有可见字符内容
