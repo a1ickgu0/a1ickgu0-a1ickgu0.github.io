@@ -11,6 +11,7 @@ category: blog
 Snort 是免费 Network Intrusion Prevention System(NIPS) 及 Network Intrusion Detection System (NIDS) 软件，其具有对数据流量分析和对网络数据包进行协议分析处理的能力，通过灵活可定制的规则库(Rule)，可对处理的报文内容进行搜索和匹配，能够检测出各种攻击，并进行实时预警。
 
 软件采用[双授权:](https://www.snort.org/license)
+
 * 源代码及社区版本规则库使用 GPLv2 授权
 * 专用规则库(Proprietary Snort Rules)使用 "Non-Commercial Use License"授权，只允许个人使用，不可用作商业
 
@@ -31,10 +32,10 @@ Snort 是免费 Network Intrusion Prevention System(NIPS) 及 Network Intrusion 
 
 ### Decoder 与 Preprocessor 规则
 
-Decoder 阶段使用 ``snort.conf`` 文件中 ``config disbale_decode_alerts`` 参数配置告警行为，通过 `` config enable_decode_drops`` 参数的优先级高于 rule 中的 drop 行为优先级。
+Decoder 阶段使用 ``snort.conf`` 文件中 ``config disbale_decode_alerts`` 参数配置告警行为，通过 `` config enable_decode_drops`` 参数的优先级高于 rule 中的 drop 行为优先级
 
 Decoder 与 Preprocessor 的 Rule 通过配置文件保存在源代码的 ``preproc_rules/`` 目录，对应于 ``decoder.rules`` 与 ``preprocessor.rules`` 文件， Decoder 与 Preprocessor 的 Rule 的启用需要在 snort.conf 中增加相应的配置:
-ZZ
+
 ```
 
     var PREPROC_RULE_PATH /path/to/preproc_rules
@@ -63,7 +64,7 @@ Snort 支持多种类似的 Decoder 与 Preprocessor 处理，详细信息如下
 
 ![](http://7xjudy.com1.z0.glb.clouddn.com/2016-12-08-14810266487430.jpg)
 
-基本上常见的应用协议 Preprocessor 都支持。
+基本上常见的应用协议 Preprocessor 都支持
 
 
 ### Detection 规则
@@ -71,13 +72,13 @@ Snort 支持多种类似的 Decoder 与 Preprocessor 处理，详细信息如下
 
 Snort Detection 的 Rule 规则由 Rule Header 与 Options 两个部分构成
 
-![](http://7xjudy.com1.z0.glb.clouddn.com/2016-12-08-14810187352895.jpg)
+![](http://7xjudy.com1.z0.glb.clouddn.com/2016-12-08-14810187352895.jpg)，
 
 
-* Rule Header，描述规则流的行为及基本特征，描述串为固定格式信息 `` [行为][协议][IP地址][端口号][流方向][IP地址][端口号] `` 七类信息
-* Rule Opitons，描述规则流的精确匹配信息，包括：HTTP 首部、Cookie、UA、特定偏移的字串，等等，这个是 Snort 最强大的部分，也是 Snort 的核心部分
+* Rule Header，描述流的行为及基本特征，描述串为固定格式信息 `` [行为][协议][IP地址][端口号][流方向][IP地址][端口号] `` 七类信息
+* Rule Opitons，描述流的精确匹配信息，包括：HTTP 首部、Cookie、UA、特定偏移的字串，等等，这个是 Snort 最强大的部分，也是 Snort 的核心部分
 
-下面的例子: 从 ``$BAD_NETK`` 网络任意源端口到 ``$HOME`` 网络的 80 端口 且有效载荷中包含十六进制为 0x47 0x45 0x54（即 "GET"）字符串的报文。
+下面的例子: 从 ``$BAD_NETK`` 网络任意源端口到 ``$HOME`` 网络的 80 端口 且有效载荷中包含十六进制为 0x47 0x45 0x54（即 "GET"）字符串的报文
 
 ![](http://7xjudy.com1.z0.glb.clouddn.com/2016-12-08-14810069729839.jpg)
 
@@ -85,7 +86,7 @@ Snort Detection 的 Rule 规则由 Rule Header 与 Options 两个部分构成
 
 ![](http://7xjudy.com1.z0.glb.clouddn.com/2016-12-08-14810318232134.jpg)
 
-Detection 阶段的 Rule Action 比 Decoder/Preprocessor 阶段增加了 Activate / Dynamic 行为， Activate 定义流规则同时指定规则 ID (activates:ID)，Dynmaic 规则通过指定的规则 ID 进行激活(activated_by:ID)，这两个行为能够组合出更灵活的 Snort Rule 规则.
+Detection 阶段的 Rule Action 比 Decoder/Preprocessor 阶段增加了 Activate / Dynamic 行为， Activate 定义流规则同时指定规则 ID (activates:ID)，Dynmaic 规则通过指定的规则 ID 进行激活(activated_by:ID)，这两个行为能够组合出更灵活的 Snort Rule 规则
 
 Rule 样例 "检测到非 $HOME_NET 对 IMAP(TCP 80端口) 的 buffer overflow 攻击后，记录后续的 50 个报文首部信息" 如下:
 
@@ -134,7 +135,7 @@ Snort 的 Rule Options 主要有以下四类:
 
 ##### 样例
 
-1. msg /reference 关键字
+* msg /reference 关键字
 
 ```
 alert tcp any any -> any 7070 (msg:"IDS411/dos-realaudio"; \
@@ -146,20 +147,20 @@ alert tcp any any -> any 21 (msg:"IDS287/ftp-wuftp260-venglin-linux"; \
     reference:cve,CAN-2000-1574;)
 ```
 
-2. gid/sid/rev 关键字
+* gid/sid/rev 关键字
 
 ```
 alert tcp any any -> any 80 (content:"BOB"; gid:1000001; sid:1; rev:1;)
 ```
 
-3. classtype 关键字
+* classtype 关键字
 
 ```
 alert tcp any any -> any 25 (msg:"SMTP expn root"; flags:A+; \
     content:"expn root"; nocase; classtype:attempted-recon;)
 ```
 
-4. priority 关键字
+* priority 关键字
 
 ```
 alert tcp any any -> any 80 (msg:"WEB-MISC phf attempt"; flags:A+; \
@@ -168,7 +169,7 @@ alert tcp any any -> any 80 (msg:"EXPLOIT ntpdx overflow"; \
     dsize:>128; classtype:attempted-admin; priority:10 )
 ```
 
-5. metadata 关键字
+* metadata 关键字
 
 ```
 alert tcp any any -> any 80 (msg:"Shared Library Rule Example"; \
