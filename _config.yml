@@ -6,6 +6,6 @@ paginate: 8
 permalink: /:title
 
 title: Alick's Blog
-url: http://blog.a1ickgu0.me
+url: http://blog.alickguo.me
 feed: /atom.xml
-author_info: <a href="http://blog.a1ickgu0.me/">Alick's Blog</a>
+author_info: <a href="http://blog.alickguo.me/">Alick's Blog</a>
