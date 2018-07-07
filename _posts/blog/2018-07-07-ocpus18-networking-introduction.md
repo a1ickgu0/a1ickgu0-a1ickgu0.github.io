@@ -5,8 +5,11 @@ description: Open Comupte Project Submit 2018 网络项目的基础介绍，内�
 category: blog
 ---
 
-## 网络项目整体介绍
-![](media/15308989049973/15308990406428.jpg)
+# OCPUS18-Networking Project Welcome & Introduction by Project Leads
+
+
+## Networking Project 整体介绍
+![](http://7xjudy.com1.z0.glb.clouddn.com/2018-07-07-15308990406428.jpg)
 
 
 OCP Networking 项目组的 Leader 为：
@@ -27,6 +30,11 @@ Networking 包含以下 6 个子项目：
 
 ## 2017 的成果回顾
 
-![](media/15308989049973/15308996453210.jpg)
+![](http://7xjudy.com1.z0.glb.clouddn.com/2018-07-07-15308996453210.jpg)
 
 2017年 5 个厂商提案了 12 个硬件设计，OCP 采纳了其中 6 个，硬件方案在 [官网页](https://www.opencompute.org/wiki/Networking/SpecsAndDesigns) 可以查看。
+
+
+[End.]
+
+[源视频地址](https://www.youtube.com/watch?v=HZk2tQz0siQ)
