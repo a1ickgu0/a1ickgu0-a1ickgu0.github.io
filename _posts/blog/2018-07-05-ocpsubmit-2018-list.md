@@ -6,8 +6,6 @@ category: blog
 ---
 
 
-# OCP 2018 submit
-
 ![](http://7xjudy.com1.z0.glb.clouddn.com/2018-07-05-15223729040035.jpg)
 
 
@@ -16,8 +14,6 @@ category: blog
 ## Networking
 
 内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共29篇)，有意思的记录下来``，等9月份来打脸.
-
-
 
 ### Generic
 * [-] OCPUS18 –Networking Project Welcome & Introduction by Project Leads
