@@ -16,9 +16,8 @@ category: blog
 内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共29篇)，有意思的记录下来``，等9月份来打脸.
 
 ### Generic
-* [-] OCPUS18 –Networking Project Welcome & Introduction by Project Leads
-* [-] OCPUS18 –The transformation of Network Infrastructure Presented by Intel
-* [-] OCPUS18 –A Programmable Network Presented by Delta
+* [OCPUS18 –Networking Project Welcome & Introduction by Project Leads](https://www.youtube.com/watch?v=HZk2tQz0siQ)，网络项目/子项目 Leader 介绍以及 2017 年 OCP 采纳的 Switch 设计
+* [OCPUS18 –A Programmable Network Presented by Delta](https://www.youtube.com/watch?v=QM83WhfEbcY) ，Delta Switch 可编程介绍，使用 ONOS +  Cumulus Linux，演示有车祸，之后介绍 RESTAPI 及 Demo，用的是 REST 操作风扇，与 Programmable Network 好象没有啥关系。
 * [-] OCPUS18 –Keynote – Google, Facebook and Big Switch Demo Next Generation Network Operating Systems B
 * [-] OCPUS18 –OCP Network Stack Common Components for Three Very Different Use-Cases
 * [-] OCPUS18 –400G CWDM8 Optics for Next Generation Data Center Networks
@@ -191,3 +190,5 @@ category: blog
 * OCPUS18 –Keynote – Cloud Scale Innovations for a Secure Trusted Infrastructure
 * OCPUS18 –Keynote – The Future for OCP OPEN For Business
 * OCPUS18 –Keynote – Opening Remarks & Welcome
+
+
