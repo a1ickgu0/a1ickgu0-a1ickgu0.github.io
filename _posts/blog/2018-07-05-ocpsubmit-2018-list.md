@@ -13,13 +13,13 @@ category: blog
 
 ## Networking
 
-内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共29篇)，有意思的记录下来``，等9月份来打脸.
+内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共28篇)，有意思的记录下来``，等9月份来打脸.
 
 ### Generic
 * [OCPUS18 –Networking Project Welcome & Introduction by Project Leads](https://www.youtube.com/watch?v=HZk2tQz0siQ)，网络项目/子项目 Leader 介绍以及 2017 年 OCP 采纳的 Switch 设计
 * [OCPUS18 –A Programmable Network Presented by Delta](https://www.youtube.com/watch?v=QM83WhfEbcY) ，Delta Switch 可编程介绍，使用 ONOS +  Cumulus Linux，演示有车祸，之后介绍 RESTAPI 及 Demo，用的是 REST 操作风扇，与 Programmable Network 好象没有啥关系。
-* [-] OCPUS18 –Keynote – Google, Facebook and Big Switch Demo Next Generation Network Operating Systems B
-* [-] OCPUS18 –OCP Network Stack Common Components for Three Very Different Use-Cases
+* [OCPUS18 –Keynote - Next Generation Network Operating Systems Based on Open Network Linux](https://www.youtube.com/watch?v=g_aPC1x4_cA)，Facebook-Open/R，Big Switch-BGP，Google-Stratum & ONL。FBOOS/GNOS/ Demo（Tmux录像），内容不多，意犹未尽。
+* [-] [OCPUS18 –OCP Network Stack Common Components for Three Very Different Use-Cases](https://www.youtube.com/watch?v=Z2yaeyG22pU)，是上篇的续篇
 * [-] OCPUS18 –400G CWDM8 Optics for Next Generation Data Center Networks
 * [-] OCPUS18 –Accelerating Load Balancing Programs Using HW-based Hints in the eXpress Data Path
 * [-] OCPUS18 –Programmable Silicon Use-Cases in the Disaggregated Network
