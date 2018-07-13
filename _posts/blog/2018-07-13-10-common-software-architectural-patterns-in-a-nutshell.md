@@ -3,6 +3,7 @@ layout: post
 title: 10 个常见软件架构模式
 description: 这个是之前在 Jobbole 上的翻译文章，记录之。
 category: blog
+---
 
 这个是先前在 Jobbole 上的翻译文章 [10 个常用的软件架构模式](http://blog.jobbole.com/113953/) ，转到 Blog 上记录之。
 
