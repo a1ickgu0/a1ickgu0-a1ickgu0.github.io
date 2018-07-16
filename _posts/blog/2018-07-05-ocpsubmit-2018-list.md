@@ -13,52 +13,54 @@ category: blog
 
 ## Networking
 
-内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共28篇)，有意思的记录下来``，等9月份来打脸.
+内容丰常丰富，先立个 Flag: ``8月内将所有网络相关的都瞄一遍(一共26篇)，有意思的记录下来``，等9月份来打脸.
 
 ### Generic
-* [OCPUS18 –Networking Project Welcome & Introduction by Project Leads](https://www.youtube.com/watch?v=HZk2tQz0siQ)，网络项目/子项目 Leader 介绍以及 2017 年 OCP 采纳的 Switch 设计
-* [OCPUS18 –A Programmable Network Presented by Delta](https://www.youtube.com/watch?v=QM83WhfEbcY) ，Delta Switch 可编程介绍，使用 ONOS +  Cumulus Linux，演示有车祸，之后介绍 RESTAPI 及 Demo，用的是 REST 操作风扇，与 Programmable Network 好象没有啥关系。
-* [OCPUS18 –Keynote - Next Generation Network Operating Systems Based on Open Network Linux](https://www.youtube.com/watch?v=g_aPC1x4_cA)，Facebook-Open/R，Big Switch-BGP，Google-Stratum & ONL。FBOOS/GNOS/ Demo（Tmux录像），内容不多，意犹未尽。
-* [-] [OCPUS18 –OCP Network Stack Common Components for Three Very Different Use-Cases](https://www.youtube.com/watch?v=Z2yaeyG22pU)，是上篇的续篇，几个厂的视频 show case，Google 的 NOS 最 cool，Nickname：``GNOS Hercules/ONL [New ONLP]`` 。
-* [-] OCPUS18 –400G CWDM8 Optics for Next Generation Data Center Networks
-* [-] OCPUS18 –Accelerating Load Balancing Programs Using HW-based Hints in the eXpress Data Path
-* [-] OCPUS18 –Programmable Silicon Use-Cases in the Disaggregated Network
-* [-] OCPUS18 –New Topics for Data Center Facility Project
-* [-] OCPUS18 –OCP Data Center Sustainability Standard Initiative
+1. [OCPUS18 –Networking Project Welcome & Introduction by Project Leads](https://www.youtube.com/watch?v=HZk2tQz0siQ)，网络项目/子项目 Leader 介绍以及 2017 年 OCP 采纳的 Switch 设计
+2. [OCPUS18 –A Programmable Network Presented by Delta](https://www.youtube.com/watch?v=QM83WhfEbcY) ，Delta Switch 可编程介绍，使用 ONOS +  Cumulus Linux，演示有车祸，之后介绍 RESTAPI 及 Demo，用的是 REST 操作风扇，与 Programmable Network 好象没有啥关系。
+3. [OCPUS18 –Keynote - Next Generation Network Operating Systems Based on Open Network Linux](https://www.youtube.com/watch?v=g_aPC1x4_cA)，Facebook-Open/R，Big Switch-BGP，Google-Stratum & ONL。FBOOS/GNOS/ Demo（Tmux录像），内容不多，意犹未尽。
+4. [OCPUS18 –OCP Network Stack Common Components for Three Very Different Use-Cases](https://www.youtube.com/watch?v=Z2yaeyG22pU)，是上篇的续篇，几个厂的视频 show case，Google 的 NOS 最 cool，Nickname：``GNOS Hercules/ONL [New ONLP]`` 。
+5. [OCPUS18 –400G CWDM8 Optics for Next Generation Data Center Networks](https://www.youtube.com/watch?v=FQinw7WJ0B8)，Intel CWDM8 Project，针对 50G NRZ 与 50G/100G PAM4 进行技术对比。
+6. [OCPUS18 –Accelerating Load Balancing Programs Using HW-based Hints in the eXpress Data Path](https://www.youtube.com/watch?v=OMtyRE4vVV0&)，[XDP](https://www.iovisor.org/technology/xdp) 提供 Linux 原生网络应用的高性能方案，与 DPDK 的性能对比主持人尚未给出，值得关注。 
+7. [OCPUS18 –Programmable Silicon Use-Cases in the Disaggregated Network](https://www.youtube.com/watch?v=xz9gBMcBeKw)，4个 use-case，老生常谈，会上公布 P4.org 新成立的 P4 App WorkGroup 集焦 P4 的应用领域，这个值得关注。
+
 
 ### NOS
-* [-] OCPUS18 –FBOSS Operational Update
-* [-] OCPUS18 –ONIE and Securing the Install Process
-* [-] OCPUS18 –SONiC Development and Deployment at Alibaba
-* [-] OCPUS18 –Open Networking 2.0 - Disaggregated Software
-* [-] OCPUS18 –SAI Update and Looking Forward
-* [-] OCPUS18 –Switch ASIC Programmability with SAI
-* [-] OCPUS18 –SONiC Programmability, Extensibility and Beyond
-* [-] OCPUS18 –BoF SONIC Softswitch
-* [-] OCPUS18 –BoF SONiC Deployments Powered by Programmable Dataplane
-* [-] OCPUS18 –BoF Discussion - NW SAI & Programmability
-* [-] OCPUS18 –BoF Alibaba Fast Data Center Network Evolution with Open SONiC and Programmable HW Chip
-* [-] OCPUS18 –BoF Discussion - NW Lessons & SONiC
-* [-] OCPUS18 –BoF Discussion - NW Case Studies & Roundtable
+1. [-] OCPUS18 –FBOSS Operational Update
+2. [-] OCPUS18 –ONIE and Securing the Install Process
+3. [-] OCPUS18 –SONiC Development and Deployment at Alibaba
+4. [-] OCPUS18 –Open Networking 2.0 - Disaggregated Software
+5. [-] OCPUS18 –SAI Update and Looking Forward
+6. [-] OCPUS18 –Switch ASIC Programmability with SAI
+7. [-] OCPUS18 –SONiC Programmability, Extensibility and Beyond
+8. [-] OCPUS18 –BoF SONIC Softswitch
+9. [-] OCPUS18 –BoF SONiC Deployments Powered by Programmable Dataplane
+1. [-] OCPUS18 –BoF Discussion - NW SAI & Programmability
+2. [-] OCPUS18 –BoF Alibaba Fast Data Center Network Evolution with Open SONiC and Programmable HW Chip
+3. [-] OCPUS18 –BoF Discussion - NW Lessons & SONiC
+4. [-] OCPUS18 –BoF Discussion - NW Case Studies & Roundtable
 
 
 ### Telemetry
-* [-] OCPUS18 –An Evolution of Network Telemetry
-* [-] OCPUS18 –InBand Network Telemetry - A Powerful Analytics Framework for Your Data Center
-* [-] OCPUS18 –Network Telemetry and Analytics in the Age of Big Data
-* [-] OCPUS18 –Networking Interoperability Testing Convergence
-* [-] OCPUS18 –Ridesharing Your Cloud Data Center - Realize Better Resource Utilization with NVMe-oF
-* [-] OCPUS18 –BoF Discussion - NW Demo & Telemetry BoF
+1. [-] OCPUS18 –An Evolution of Network Telemetry
+2. [-] OCPUS18 –InBand Network Telemetry - A Powerful Analytics Framework for Your Data Center
+3. [-] OCPUS18 –Network Telemetry and Analytics in the Age of Big Data
+4. [-] OCPUS18 –Networking Interoperability Testing Convergence
+5. [-] OCPUS18 –Ridesharing Your Cloud Data Center - Realize Better Resource Utilization with NVMe-oF
+6. [-] OCPUS18 –BoF Discussion - NW Demo & Telemetry BoF
 
 
 
 ## Others
+
+* [OCPUS18 –New Topics for Data Center Facility Project](https://www.youtube.com/watch?v=iMjmqJYe_zA)
+* [OCPUS18 –OCP Data Center Sustainability Standard Initiative](https://www.youtube.com/watch?v=cMfK_Zw1DNg)
 * OCPUS18 –Security Team Work Session
 * OCPUS18 –Recommended Profiles for Next Generation of OCP Racks (Joint Session with HPC)
 * OCPUS18 –Film Data Driven. Advancing a Sustainable Future. - Presented by 3M
 * OCPUS18 –Project Greenfield – Building the Nextgen Datacenter at Adobe
 * OCPUS18 –OpenBMC on Project Olympus
-* [-] OCPUS18 –BoF Discussion - NW Optics
+* OCPUS18 –BoF Discussion - NW Optics
 * OCPUS18 –State of OpenBMC Development
 * OCPUS18 –DMTF Standards for OCP Platforms Management
 * OCPUS18 –OCP-CG and Edge Computing
