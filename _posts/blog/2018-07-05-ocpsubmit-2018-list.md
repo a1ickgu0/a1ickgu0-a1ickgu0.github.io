@@ -26,14 +26,14 @@ category: blog
 
 
 ### NOS
-1. [-] OCPUS18 –FBOSS Operational Update
-2. [-] OCPUS18 –ONIE and Securing the Install Process
-3. [-] OCPUS18 –SONiC Development and Deployment at Alibaba
-4. [-] OCPUS18 –Open Networking 2.0 - Disaggregated Software
-5. [-] OCPUS18 –SAI Update and Looking Forward
-6. [-] OCPUS18 –Switch ASIC Programmability with SAI
-7. [-] OCPUS18 –SONiC Programmability, Extensibility and Beyond
-8. [-] OCPUS18 –BoF SONIC Softswitch
+1. [OCPUS18 –FBOSS Operational Update](https://www.youtube.com/watch?v=3bQaWmXsGss) ，FB 的数据中心混合部署 FBOSS & 其他 NOS，已部署 FBOSS 的 Switch 构建 Switching as a service，实现 FBOSS 的在线持续增量部署。会上主持人透露了个惊人的数字，Facebook 只有 10 人的硬件团队以及 6 人的 FBOSS 核心团队。
+2. [-] [OCPUS18 –ONIE and Securing the Install Process](https://www.youtube.com/watch?v=FCJJxzRtVro)
+3. [-] [OCPUS18 –SONiC Development and Deployment at Alibaba](https://www.youtube.com/watch?v=aSd3R3gnQtw)
+4. [-] [OCPUS18 –Open Networking 2.0 - Disaggregated Software](https://www.youtube.com/watch?v=FZJaS0cLlVc)
+5. [-] [OCPUS18 –SAI Update and Looking Forward](https://www.youtube.com/watch?v=GGjzd8Kk7KA)
+6. [-] [OCPUS18 –Switch ASIC Programmability with SAI](https://www.youtube.com/watch?v=ysplfVUuWJ0)
+7. [-] [OCPUS18 –SONiC Programmability, Extensibility and Beyond](https://www.youtube.com/watch?v=TLi5n0cZbz0)
+8. [-] OCPUS18 –BoF SONiC Softswitch
 9. [-] OCPUS18 –BoF SONiC Deployments Powered by Programmable Dataplane
 1. [-] OCPUS18 –BoF Discussion - NW SAI & Programmability
 2. [-] OCPUS18 –BoF Alibaba Fast Data Center Network Evolution with Open SONiC and Programmable HW Chip
